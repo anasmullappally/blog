@@ -6,14 +6,14 @@ import { use } from 'react';
 
 export default function GoToPost({ params }: { params: Promise<{ slug: string }> }) {
   const router = useRouter();
-  const { slug } = use(params); // ✅ unwrap the Promise safely
+  const { slug } = use(params);
 
   useEffect(() => {
-    const message = `Hi, I'm interested in your blog post: https:/blog-nine-omega-94.vercel.app/blog/${slug}`;
+    const message = `Hello, I’m looking for legal assistance regarding a property-related matter. Could you please guide me on how to proceed?`;
     
     // Open WhatsApp in a new tab
     window.open(
-      `https://wa.me/9539363694?text=${encodeURIComponent(message)}`,
+      `https://wa.me/9446535292?text=${encodeURIComponent(message)}`,
       '_blank'
     );
 
