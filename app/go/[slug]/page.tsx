@@ -13,7 +13,7 @@ export default function GoToPost({ params }: { params: Promise<{ slug: string }>
     
     // Open WhatsApp in a new tab
     window.open(
-      `https://wa.me/9446535292?text=${encodeURIComponent(message)}`,
+      `https://wa.me/9447455372?text=${encodeURIComponent(message)}`,
       '_blank'
     );
 

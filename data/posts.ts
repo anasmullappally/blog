@@ -13,6 +13,50 @@ export interface IPost {
 
 export const posts: IPost[] = [
   {
+    title: "Kerala High Court Clarifies Will-Based Property Mutation Rules",
+    slug: "kerala-high-court-will-mutation-guidelines",
+    author: "Kerala Legal Team",
+    date: "2024-11-14",
+    category: "Property Law",
+    thumbnail: "/images/thumbnails/will-mutation-judgment.webp",
+    thumbnail_alt:
+      "Kerala High Court courtroom with legal documents and land registry",
+    excerpt:
+      "In a significant ruling, the Kerala High Court laid down clear guidelines on transferring property registry based on a Will, emphasizing that only civil courts can decide on the Will's validity in case of disputes.",
+    keywords:
+      "Kerala High Court, Will mutation, property transfer, legal heirs, civil court, Muslim Will, registry rules",
+    content: `
+    <article>
+      <h1>Kerala High Court Clarifies Will-Based Property Mutation Rules</h1>
+      <p><strong>Author:</strong> Anas &nbsp;|&nbsp; <strong>Date:</strong> November 14, 2024 &nbsp;|&nbsp; <strong>Category:</strong> Legal</p>
+      <p><strong>Excerpt:</strong> In a significant ruling, the Kerala High Court laid down clear guidelines on transferring property registry based on a Will, emphasizing that only civil courts can decide on the Will's validity in case of disputes.</p>
+
+      <h2>WILL-AMENDMENT TO THE TRANSFER OF REGISTRY RULES</h2>
+
+      <p><strong>Kerala High Court | Judgment Date:</strong> 14th November 2024<br />
+      <strong>Case:</strong> <em>Babu R. & Others vs. State of Kerala & Others</em><br />
+      <strong>Presiding Judge:</strong> Dr. Justice Kauser Edappagath</p>
+
+      <p>The Kerala High Court has delivered a landmark judgment clarifying the process of property mutation based on Wills. The court emphasized that:</p>
+
+      <ul>
+        <li>Revenue officers <strong>cannot determine the authenticity</strong> or legality of a Will.</li>
+        <li>If <strong>no objections</strong> are raised by legal heirs or interested parties, the mutation process may proceed.</li>
+        <li>In case of <strong>disputes</strong>, the parties must approach a <strong>civil court</strong> for resolution before the mutation can be finalized.</li>
+        <li>For <strong>Muslim Wills</strong>, transfer can only occur for the shares of heirs who provide <strong>explicit consent</strong>, due to limitations under personal law.</li>
+      </ul>
+
+      <p>The Court also directed the <strong>State Government to amend the Transfer of Registry Rules, 1966</strong>, to accommodate clear procedures for testamentary transfers. This ensures uniform handling of Will-based property mutations across Kerala.</p>
+
+      <blockquote>
+        “Mere registration of a Will does not authorize mutation when disputes exist.” – <em>Kerala High Court</em>
+      </blockquote>
+
+      <p>This ruling is expected to reduce ambiguity and streamline the process for revenue officers, while protecting the rights of legal heirs.</p>
+    </article>
+  `,
+  },
+  {
     title: "Rights in Property Law",
     slug: "rights-in-property-law",
     author: "Kerala Legal Team",

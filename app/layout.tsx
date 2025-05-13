@@ -21,6 +21,8 @@ export const metadata: Metadata = {
     "property legal services",
     "legal advisor for property issues",
     "Kerala property law",
+    "Practical lawyer",
+    "Property solutions",
   ].join(", "),
   openGraph: {
     title:

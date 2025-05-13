@@ -33,11 +33,15 @@ export default function Home() {
     "advocate for house ownership dispute",
     "legal advisor for flat registration problems",
     "real estate conflict resolution lawyer",
+    "Practical lawyer",
+    "Property solutions",
   ].join(", ");
 
-  // Feature the "Legal Heir Certificates in Kerala" post in the hero section
+  // Feature post in the hero section
   const featuredPost =
-    posts.find((p) => p.slug === "legal-heir-certificate-kerala") || posts[0];
+    posts.find(
+      (p) => p.slug === "kerala-high-court-will-mutation-guidelines"
+    ) || posts[0];
 
   return (
     <div>
@@ -79,28 +83,30 @@ export default function Home() {
       <Header />
 
       {/* hero */}
-      <div className="mb-20 px-5 md:px-0">
-        <div className="h-[250px] md:h-[600px] rounded-md relative">
-          <Image
-            src={featuredPost.thumbnail}
-            alt="Property law in Kerala hero image"
-            sizes="100vw"
-            fill
-            className="object-cover"
-          />
-          <div className="absolute -bottom-8 bg-white dark:bg-[#242535] p-6 ml-10 rounded-lg shadow-lg max-w-[80%] md:max-w-[40%]">
-            <p className="text-xs bg-blue-700 w-fit py-1 px-2 text-white rounded-md mb-1">
-              {featuredPost.category}
-            </p>
-            <h2 className="text-base md:text-3xl font-bold">
-              {featuredPost.title}
-            </h2>
-            <p className="text-sm mt-4">
-              {featuredPost.author} | {featuredPost.date}
-            </p>
+      <Link href={`/go/${featuredPost.slug}`} className="block">
+        <div className="mb-20 px-5 md:px-0 cursor-pointer">
+          <div className="h-[250px] md:h-[600px] rounded-md relative">
+            <Image
+              src={featuredPost.thumbnail}
+              alt="Property law in Kerala hero image"
+              sizes="100vw"
+              fill
+              className="object-cover"
+            />
+            <div className="absolute -bottom-8 bg-white dark:bg-[#242535] p-6 ml-10 rounded-lg shadow-lg max-w-[80%] md:max-w-[40%]">
+              <p className="text-xs bg-blue-700 w-fit py-1 px-2 text-white rounded-md mb-1">
+                {featuredPost.category}
+              </p>
+              <h2 className="text-base md:text-3xl font-bold">
+                {featuredPost.title}
+              </h2>
+              <p className="text-sm mt-4">
+                {featuredPost.author} | {featuredPost.date}
+              </p>
+            </div>
           </div>
         </div>
-      </div>
+      </Link>
 
       {/* content */}
       <div className="grid grid-cols-1 md:grid-cols-3 place-items-center gap-5">
