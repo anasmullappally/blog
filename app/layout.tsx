@@ -9,7 +9,7 @@ const work_Sans = Work_Sans({
 
 export const metadata: Metadata = {
   title:
-    "Kerala Property Law Blog – Top Lawyers for Land Disputes & Real Estate",
+    "Kerala Property Law Blog – Top Lawyers for Property Solution & Land Issues",
   description:
     "Explore expert guides on Kerala property law, including legal heir certificates, land reforms, and succession. Connect with top-rated property lawyers in Kerala and Ernakulam for land disputes, partition cases, and real estate issues.",
   keywords: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   ].join(", "),
   openGraph: {
     title:
-      "Kerala Property Law Blog – Top Lawyers for Land Disputes & Real Estate",
+      "Kerala Property Law Blog – Top Lawyers for Property Solution & Land Issues",
     description:
       "Discover property law insights and find the best lawyers for property cases, land disputes, and real estate in Kerala and Ernakulam.",
     images: [
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Kerala Property Law Blog – Top Lawyers for Land Disputes & Real Estate",
+      "Kerala Property Law Blog – Top Lawyers for Property Solution & Land Issues",
     description:
       "Discover property law insights and find the best lawyers for property cases, land disputes, and real estate in Kerala and Ernakulam.",
     images: ["/images/hero.jpg"],
